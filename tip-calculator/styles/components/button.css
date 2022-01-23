@@ -6,14 +6,17 @@
   padding: 12px;
   border-radius: 5px;
   background-color: hsl(183, 100%, 15%);
-  cursor: pointer;
   text-align: center;
+  cursor: pointer;
+  transition: all linear 0.2s;
 }
 .button:hover {
   background-color: hsl(185, 41%, 84%);
   color: hsl(183, 100%, 15%);
 }
-.button:focus {
+.button:focus,
+.button:active,
+.button--active {
   background-color: hsl(172, 67%, 45%);
   color: hsl(183, 100%, 15%);
 }

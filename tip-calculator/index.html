@@ -19,36 +19,45 @@
         <div class="card__left">
           <div class="bill">
             <h2 class="bill__title title title--dark">Bill</h2>
-            <input class="input bill__input" placeholder="0" />
+            <input class="bill-input input bill__input" placeholder="0" />
           </div>
           <div class="tip-buttons">
             <h2 class="tip-buttons__title title title--dark">Select Tip %</h2>
             <div class="tip-buttons__grid">
-              <button class="button">5</button>
-              <button class="button">10</button>
-              <button class="button">15</button>
-              <button class="button">25</button>
-              <button class="button">50</button>
-              <button class="button">75</button>
+              <button class="tip-button button">5</button>
+              <button class="tip-button button">10</button>
+              <button class="tip-button button">15</button>
+              <button class="tip-button button">25</button>
+              <button class="tip-button button">50</button>
+              <button class="tip-button button">75</button>
             </div>
           </div>
         </div>
         <div class="card__right">
           <div class="calculator">
-            <div class="calculator__tip result-box">
-              <h2 class="title title--white">Tip amount</h2>
-              <span class="result-box__result">$0.00</span>
+            <div class="calculator__result">
+              <div class="calculator__tip result-box">
+                <h2 class="title title--white">Tip amount</h2>
+                <span class="result-box__result">$0</span>
+              </div>
+              <div class="result-box">
+                <h2 class="title title--white">Total</h2>
+                <span class="result-box__result">$0</span>
+              </div>
             </div>
-            <div class="result-box">
-              <h2 class="title title--white">Total</h2>
-              <span class="result-box__result">$0.00</span>
-            </div>
-            <button class="calculator__button button button--secondary">
-              Calculate
+            <button
+              class="button-reset calculator__button button button--secondary"
+            >
+              Reset
             </button>
           </div>
         </div>
       </section>
     </main>
+    <script src="./js/utils.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/logic.js"></script>
+    <script src="./js/view.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
