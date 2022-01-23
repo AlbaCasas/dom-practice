@@ -8,6 +8,7 @@
   border-radius: 5px;
   background-color: hsl(183, 100%, 15%);
   cursor: pointer;
+  text-align: center;
 }
 .button:hover {
   background-color: hsl(185, 41%, 84%);

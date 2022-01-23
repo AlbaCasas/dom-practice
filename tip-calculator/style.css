@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card {
+  height: 480px;
+  width: 920px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.card__left {
+  background-color: yellow;
+  margin: 48px;
+  width: 45%;
+  height: 80%;
+}
+
+.tip-buttons__title {
+  margin-bottom: 16px;
+}
+
+.tip-buttons__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+  width: 100%;
+}
