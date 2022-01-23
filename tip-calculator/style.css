@@ -11,10 +11,10 @@
   width: 920px;
   background-color: white;
   border-radius: 30px;
+  gap: 50px;
 }
 
 .card__left {
-  background-color: yellow;
   margin: 48px;
   width: 45%;
   height: 80%;
@@ -30,4 +30,11 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 8px;
   width: 100%;
+}
+
+.bill {
+  margin-bottom: 48px;
+}
+.bill__title {
+  margin-bottom: 8px;
 }
