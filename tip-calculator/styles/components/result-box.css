@@ -1,0 +1,12 @@
+.result-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-box__result {
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+}

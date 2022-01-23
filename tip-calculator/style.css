@@ -7,17 +7,19 @@
 }
 
 .card {
+  display: flex;
   height: 480px;
   width: 920px;
   background-color: white;
   border-radius: 30px;
   gap: 50px;
+  padding: 32px;
 }
 
 .card__left {
-  margin: 48px;
-  width: 45%;
-  height: 80%;
+  width: 50%;
+  height: 100%;
+  padding-left: 8px;
 }
 
 .tip-buttons__title {
@@ -37,4 +39,25 @@
 }
 .bill__title {
   margin-bottom: 8px;
+}
+
+.card__right {
+  width: 50%;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.calculator__tip {
+  margin-bottom: 40px;
+}
+
+.calculator__button {
+  margin-top: auto;
 }
