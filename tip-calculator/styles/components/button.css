@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  max-width: 240px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: hsl(183, 100%, 15%);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+.button:focus {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.button--secondary {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  text-transform: uppercase;
+  font-weight: 700;
+}
